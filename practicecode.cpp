@@ -1,25 +1,40 @@
 #include<iostream>
 using namespace std;
 int main() {
-/*
-    int a = 465;
-cout << a << endl ;
 
-char b = 'd';
-cout<< b <<endl;
+    cout << ((3 < 1)&& (3>1)) << endl; // logical operators
+    // int ans = (5/ (double)2); // explicit type conversion
+    // cout << ans << endl;
 
-double d = 23.56;
-cout<< d <<endl;
+    //  double price = 100.5;
 
-float f = 1.3;
-cout<< f <<endl;
+    // int newprice = (int)price; // explicit type conversion
+    // cout << newprice << endl;
+    // char grade = 'A';
+    // int value = grade;
+    // cout << value << endl;
 
-bool bl = true;
-cout<< bl <<endl;
+    // int age = 20;
+    // cout << "My age is " << age << endl;
 
-int size  = sizeof(f);
-cout<< "size of f is :" <<size <<endl;
-*/
+    // cout << "Hello World\ndivyangana mehandu" << endl;
+
+
+// char b = 'd';
+// cout<< b <<endl;
+
+// double d = 23.56;
+// cout<< d <<endl;
+
+// float f = 1.3;
+// cout<< f <<endl;
+
+// bool bl = true;
+// cout<< bl <<endl;
+
+// int size  = sizeof(f);
+// cout<< "size of f is :" <<size <<endl;
+
 
 //    int a = 'a';
 //    cout<< a <<endl;
@@ -60,7 +75,5 @@ cout<< "size of f is :" <<size <<endl;
     //    bool sixth = (a!=b);
     //    cout<< sixth <<endl;  //if false it prints 0 and if true it prints 1
 // }
-    int a = 0;
-    cout<< !a <<endl;
-
+   return 0; 
 }
